@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'chip8emu' target in the 'chip8emu' project
+//
+
+#include "SDL.h"
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
